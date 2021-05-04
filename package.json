@@ -1,15 +1,15 @@
 {
-  "name": "ts1",
+  "name": "typescript-standalone",
   "version": "1.0.0",
-  "description": "",
+  "author": "Maratib Ali Khan",
+  "keywords": [],
+  "description": "Meant for learning typescript using command line",
+  "license": "ISC",
   "main": "index.js",
   "scripts": {
     "dev": "ts-node ./src/main.ts",
-    "build": "tsc"
+    "build": "tsc && node ./dist/main.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/node": "^15.0.1",
     "ts-node": "^9.1.1",
